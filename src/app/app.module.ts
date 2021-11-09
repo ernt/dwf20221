@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { LayoutModule } from './modules/layout/layout.module';
 import { ExchangeRateModule } from './modules/exchange-rate/exchange-rate.module';
-
+import {CustomerModule} from './modules/customer/customer.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -18,7 +18,8 @@ import { ExchangeRateModule } from './modules/exchange-rate/exchange-rate.module
     AppRoutingModule,
     HttpClientModule,
     LayoutModule,
-    ExchangeRateModule
+    ExchangeRateModule,
+    CustomerModule
  
   ],
   providers: [],
